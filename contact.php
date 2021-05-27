@@ -25,7 +25,7 @@ $message .= '<p>Сообщение: ' . $commenttext . '</p>';
 $headers  = "Content-type: text/html; charset=utf-8 \r\n"; 
 $headers .= "From: Резюме <snip@h5p.ru>\r\n";
 
-if( mail("E_Mikhailova@inbox.ru.ru", $subject, $message, $headers) ) {
+if( mail("E_Mikhailova@inbox.ru", $subject, $message, $headers) ) {
 	echo '1';
 	exit;
 } else {
