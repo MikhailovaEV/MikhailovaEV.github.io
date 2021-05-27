@@ -1,0 +1,82 @@
+body{
+    scrollbar-base-color: #07cb79;
+}
+.form-control:focus{
+    border-color: #07cb79;
+}
+::selection, 
+.btn-primary,
+.hvr-shutter-out-horizontal,
+.profile-pic:hover .profile-img,
+.info-icon,
+.timeline-container .timeline-block .timeline-content h2,
+.contact-block > i,
+.gen,
+.widget-categories ul.category-list li .posts-count,
+.widget-tags li a:hover,
+.carousel-indicators .active,
+.toolbar .btn:focus,
+.toast
+{
+    background: #07cb79;
+}
+::-webkit-scrollbar-thumb:vertical{
+       background: #07cb79;
+}
+a:focus, a:hover,
+input, textarea,
+.btn-primary:hover,
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:focus, .nav-sidebar > .active > a:hover, .nav-sidebar > li > a:hover ,.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus,
+.copyright p a,
+.desc-title a,
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active,
+.profile-pic:hover .info-position,
+.timeline-container .timeline-block .timeline-img i,
+figure.effect-winston a:hover,
+figure.effect-winston a:focus,
+.service-box i,
+.post-footer a:hover,
+.contact-block p a,
+.crumb a.active,
+.blog-sidebar h3.widget-title,
+.post-footer.single-post i,
+.comments-counter a,
+a.goto-top span
+{
+    color: #07cb79;
+}
+input:focus, textarea:focus{
+    border-bottom: 1px solid #07cb79 !important;
+}
+.btn-primary,
+.btn-primary:hover,
+.profile-img,
+.widget-tags li a:hover{
+    border-color: #07cb79;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:focus, .nav-sidebar > .active > a:hover, .nav-sidebar > li > a:hover ,.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus{
+    box-shadow: 15px 0px 0px 0px #07cb79 inset !important;
+}
+.section-title h4{
+    border: 2px solid #07cb79;
+}
+@media(min-width:1170px){
+    .timeline-container .timeline-block .timeline-content:before{
+        border-left-color:#07cb79;
+    }
+}
+@media(min-width:1170px){
+    .timeline-container .timeline-block:nth-child(even) .timeline-content::before{
+        border-right-color:#07cb79;
+    }
+}
+
+.bar, .fill {
+    border: 0.08em solid #07cb79;
+}
+.c100:hover > span {
+    color: #07cb79;
+}
+.langugae-skills:hover .skill-name {
+    color: #07cb79 !important;
+}
